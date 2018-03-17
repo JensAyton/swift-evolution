@@ -23,7 +23,7 @@ This is sometimes referred to as the "picket fencing" problem. Another example i
 
 ## Proposed solution
 
-The proposal suggests a new "raw" string literal syntax by prefixing any string with an "r" character which alters slightly the behaviour of the compiler in realising the literal. The \ character would loose it role as an escaping introducer altogether.
+The proposal suggests a new "raw" string literal syntax by prefixing any string with an "r" character which alters slightly the behaviour of the compiler in realising the literal. The \ character would lose it role as an escaping introducer altogether.
 
     let sentence = r"\w+(\s+\w+)*\."
 
